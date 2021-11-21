@@ -1,6 +1,7 @@
 public class Mot {
     private String mot;
     private int cpt;
+
     public Mot(String m){
         cpt=1;
     }

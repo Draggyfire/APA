@@ -11,7 +11,8 @@ public class CompteurTest extends Compteur {
         Compteur c;
         if (args.length<1)
             System.err.println("nom de fichier manquant");
-        else
+        else{
             c = new CompteurTest(args[0]);
+        }
     }
 }
