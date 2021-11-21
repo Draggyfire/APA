@@ -9,4 +9,12 @@ public class MotChaine extends Mot {
     public MotChaine(String m) {
         this(m, null);
     }
+
+    public MotChaine getNext() {
+        return next;
+    }
+
+    public void setNext(MotChaine next) {
+        this.next = next;
+    }
 }

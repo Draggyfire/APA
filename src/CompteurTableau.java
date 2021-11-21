@@ -67,9 +67,8 @@ public class CompteurTableau extends Compteur {
         super.statistique();
         System.out.println("Mot les plus fréquents :");
         Mot[] mot = motFrequent();
-        for(int i = 0;i< 10;i++)
+        for(int i = 0;i<10;i++)
             System.out.println(mot[i].getOccurence() + " " + mot[i].getMot());
-
     }
 
     public static void main(String[] args) {

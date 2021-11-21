@@ -51,7 +51,7 @@ public abstract class Compteur {
 
     public void statistique() {
         System.out.println("Fichier : " + nomFichier);
-        System.out.println("Nombre de mots :" + getNbMots());
+        System.out.println("Nombre de mots : " + getNbMots());
         System.out.println("Nombre de mots de taille > 4 : "+getNbMots5());
         System.out.println("-----------------");
     }
