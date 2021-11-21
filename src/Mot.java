@@ -4,6 +4,7 @@ public class Mot {
 
     public Mot(String m){
         cpt=1;
+        mot = m;
     }
     public void nouvelleOccurrence(){
         cpt++;
