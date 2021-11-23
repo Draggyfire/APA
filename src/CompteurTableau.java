@@ -9,17 +9,15 @@ public class CompteurTableau extends Compteur {
 
     private int cpt;
 
-
     public CompteurTableau(String fichierTexte) {
         super(fichierTexte);
     }
 
     public void addOccurrence(String mot) {
         if(elements == null){
-            cpt = 0;
+            cpt = 1;
             elements = new Mot[TAILLE_INITIALE];
             elements[cpt] = new Mot(mot);
-            cpt++;
         }else {
             for (Mot m : elements) {
                 if (m != null && m.getMot().equals(mot)) {

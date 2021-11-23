@@ -40,8 +40,8 @@ public abstract class Compteur {
                 if (mot.length() > 4) {
                     this.addOccurrence(mot);
                     this.addNbMots5();
-                } else
-                    this.addNbMots();
+                }
+                this.addNbMots();
             }
             in.close();
         } catch (FileNotFoundException e) {
